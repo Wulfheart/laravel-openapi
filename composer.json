@@ -1,5 +1,5 @@
 {
-    "name": "mdwheele/laravel-openapi",
+    "name": "wulfheart/laravel-openapi",
     "version": "0.1.0",
     "description": "",
     "keywords": [
@@ -7,7 +7,7 @@
         "openapi",
         "laravel"
     ],
-    "homepage": "https://github.com/mdwheele/laravel-openapi",
+    "homepage": "https://github.com/qulfheart/laravel-openapi",
     "license": "MIT",
     "authors": [
         {
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mdwheele\\OpenApi\\": "src"
+            "Wulfheart\\OpenApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mdwheele\\OpenApi\\Tests\\": "tests"
+            "Wulfheart\\OpenApi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,7 +51,7 @@
         },
         "laravel": {
             "providers": [
-                "Mdwheele\\OpenApi\\OpenApiServiceProvider"
+                "Wulfheart\\OpenApi\\OpenApiServiceProvider"
             ]
         }
     }
